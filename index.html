@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nokia Bounce Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Classic Bounce</h1>
+        <div class="game-info">
+            <div id="score">Score: 0</div>
+            <div id="lives">Lives: 3</div>
+            <div id="level">Level: 1</div>
+        </div>
+        <canvas id="game-canvas" width="400" height="500"></canvas>
+        <div class="controls">
+            <button id="start-btn">Start Game</button>
+            <p class="instructions">
+                ← → to move | ↑ to jump<br>
+                Collect gems, avoid spikes & enemies
+            </p>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
